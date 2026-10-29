@@ -5,29 +5,9 @@
 <p align="center">
   <b>Analytics Engineer</b> · SQL · Data Modeling · ETL/ELT · Reporting Automation · Data Quality
 </p>
-
 <p align="center">
-  <a href="https://<your-username>.github.io/<repo-name>/">Live Portfolio</a> ·
-  <a href="https://www.linkedin.com/in/<your-handle>">LinkedIn</a> ·
-  <a href="mailto:nachikethkadkol61@gmail.com">Email</a>
+  <img src="whats-inside.svg" alt="What is inside the portfolio: animated pipeline hero, engineering capabilities, impact metrics, case studies, experience timeline, and stack and principles" width="100%">
 </p>
-
----
-
-## About
-
-A dark-themed portfolio that shows how raw, fragmented business data becomes trusted, reusable analytical datasets. It is a single static page with no dependencies and no build step.
-
-## What's inside
-
-- **Animated data pipeline hero:** six stages (sources, ingestion, transformation, modeling, data quality, delivery) with flowing SVG paths and an explanation for each stage.
-- **Engineering capabilities:** data integration, SQL transformations and modeling, data quality, and analytics automation.
-- **Impact metrics:** scroll-triggered count-ups, each tied to the role where it happened.
-- **Case studies:**
-  - Sales & Revenue Analytics (Snowflake, SQL, Alteryx Designer, Tableau)
-  - BI Automation & Data Quality, with an interactive duplicate, null and reconciliation demo
-- **Experience timeline:** SAGO and Diacto Technologies roles with expandable details.
-- **Stack, principles and education.**
 
 ## Tech
 
