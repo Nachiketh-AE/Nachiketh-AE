@@ -1,19 +1,46 @@
-# Nachiketh Sudhindra Kadkol | Analytics Engineer Portfolio
+<p align="center">
+  <img src="banner.svg" alt="Nachiketh Sudhindra Kadkol, Analytics Engineer" width="100%">
+</p>
 
-A premium, dark-themed portfolio that shows how raw, fragmented business data becomes trusted, reusable analytical datasets. It is a single static page with no dependencies and no build step.
+<p align="center">
+  <b>Analytics Engineer</b> · SQL · Data Modeling · ETL/ELT · Reporting Automation · Data Quality
+</p>
 
-**Live site:** `https://<your-username>.github.io/<repo-name>/` (replace after enabling GitHub Pages)
+<p align="center">
+  <a href="https://<your-username>.github.io/<repo-name>/">Live Portfolio</a> ·
+  <a href="https://www.linkedin.com/in/<your-handle>">LinkedIn</a> ·
+  <a href="mailto:nachikethkadkol61@gmail.com">Email</a>
+</p>
+
+---
+
+## About
+
+A dark-themed portfolio that shows how raw, fragmented business data becomes trusted, reusable analytical datasets. It is a single static page with no dependencies and no build step.
 
 ## What's inside
 
-- **Animated data pipeline hero:** six stages (sources, ingestion, transformation, modeling, data quality, delivery) with flowing SVG paths and a hover/focus explanation for each stage.
-- **Engineering capabilities:** data integration, SQL transformations and modeling, data quality, and analytics automation, each with its problem, approach and value.
+- **Animated data pipeline hero:** six stages (sources, ingestion, transformation, modeling, data quality, delivery) with flowing SVG paths and an explanation for each stage.
+- **Engineering capabilities:** data integration, SQL transformations and modeling, data quality, and analytics automation.
 - **Impact metrics:** scroll-triggered count-ups, each tied to the role where it happened.
 - **Case studies:**
   - Sales & Revenue Analytics (Snowflake, SQL, Alteryx Designer, Tableau)
-  - BI Automation & Data Quality, with an interactive demo of duplicate checks, null checks and reconciliation
+  - BI Automation & Data Quality, with an interactive duplicate, null and reconciliation demo
 - **Experience timeline:** SAGO and Diacto Technologies roles with expandable details.
 - **Stack, principles and education.**
+
+## Tech
+
+HTML, CSS and vanilla JavaScript with custom SVG graphics. No frameworks, libraries or backend.
+
+## Repository structure
+
+```text
+.
+├── index.html    # the portfolio (single file)
+├── banner.svg    # animated README banner
+└── README.md
+```
 
 ## Run locally
 
