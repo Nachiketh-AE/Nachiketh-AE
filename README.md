@@ -4,11 +4,9 @@
 <p align="center">
   <img src="whats-inside.svg" alt="What is inside the portfolio: animated pipeline hero, engineering capabilities, impact metrics, case studies, experience timeline, and stack and principles" width="100%">
 </p>
-
-## Tech
-
-HTML, CSS and vanilla JavaScript with custom SVG graphics. No frameworks, libraries or backend.
-
+<p align="center">
+  <img src="tech-stack.svg" alt="Technical stack grouped by purpose: SQL and transformations, data platforms, integration and workflow, analytics and visualization, modeling and quality, and delivery" width="100%">
+</p>
 ## Repository structure
 
 ```text
