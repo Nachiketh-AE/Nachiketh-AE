@@ -2,7 +2,7 @@
   <img src="banner.svg" alt="Nachiketh Sudhindra Kadkol, Analytics Engineer" width="100%">
 </p>
 <p align="center">
-  <img src="about.html" alt="About Nachiketh Sudhindra Kadkol: I build the data foundation behind better decisions. Analytics Engineer at SAGO, previously BI Analyst at Diacto Technologies, M.S. from UMass Amherst. Animated pipeline from raw data to SQL transformations, data models, data quality and analytics insights." width="100%">
+  <img src="abouti.html" alt="About Nachiketh Sudhindra Kadkol: I build the data foundation behind better decisions. Analytics Engineer at SAGO, previously BI Analyst at Diacto Technologies, M.S. from UMass Amherst. Animated pipeline from raw data to SQL transformations, data models, data quality and analytics insights." width="100%">
 </p>
 <p align="center">
   <img src="tech-stack.svg" alt="Technical stack grouped by purpose: SQL and transformations, data platforms, integration and workflow, analytics and visualization, modeling and quality, and delivery" width="100%">
