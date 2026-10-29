@@ -1,10 +1,6 @@
 <p align="center">
   <img src="banner.svg" alt="Nachiketh Sudhindra Kadkol, Analytics Engineer" width="100%">
 </p>
-
-<p align="center">
-  <b>Analytics Engineer</b> · SQL · Data Modeling · ETL/ELT · Reporting Automation · Data Quality
-</p>
 <p align="center">
   <img src="whats-inside.svg" alt="What is inside the portfolio: animated pipeline hero, engineering capabilities, impact metrics, case studies, experience timeline, and stack and principles" width="100%">
 </p>
