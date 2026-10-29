@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Experience | Nachiketh Sudhindra Kadkol</title>
+<style>
+/* ===== Experience section: all rules are scoped to .exp. The body rule is for the demo page only. ===== */
+body{margin:0;background:#000;color:#e6edf3;font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+.exp{--cy:#22d3ee;--te:#2dd4bf;--mu:#8b9bb0;--ln:#1b2631;--cd:#0a0f14;max-width:960px;margin:0 auto;padding:96px 24px}
+.exp *{box-sizing:border-box}
+.exp h2{font-size:clamp(30px,4.4vw,46px);line-height:1.1;letter-spacing:-.025em;margin:0 0 12px}
+.exp .lead{color:var(--mu);max-width:58ch;margin:0 0 48px}
+.exp .wrap{position:relative;padding-left:56px}
+.exp .rail{position:absolute;left:0;top:0;width:24px;height:100%;pointer-events:none}
+.exp .rail svg{display:block}
+.exp .trk{stroke:var(--ln);stroke-width:2;fill:none}
+.exp .prg{stroke:var(--cy);stroke-width:2;fill:none;stroke-linecap:round}
+.exp .nd{fill:#000;stroke:#2c3542;stroke-width:2;transition:stroke .4s,fill .4s,r .3s}
+.exp .nd.on{stroke:var(--cy)}
+.exp .nd.hv{fill:var(--cy);r:8}
+.exp .list{display:grid;gap:20px}
+.exp .card{background:var(--cd);border:1px solid var(--ln);border-radius:14px;opacity:0;transform:translateY(16px);transition:opacity .7s,transform .7s cubic-bezier(.2,.7,.2,1),border-color .25s}
+.exp .card.in{opacity:1;transform:none}
+.exp .card:hover,.exp .card.open{border-color:#24556a}
+.exp .hd{all:unset;box-sizing:border-box;display:block;width:100%;padding:22px 24px 8px;cursor:pointer}
+.exp .hd:focus-visible{outline:2px solid var(--cy);outline-offset:-2px;border-radius:14px}
+.exp .top{display:flex;justify-content:space-between;gap:8px 16px;flex-wrap:wrap;align-items:baseline}
+.exp .role{font-size:19px;font-weight:600;letter-spacing:-.01em;color:#e6edf3}
+.exp .co{color:var(--cy)}.exp .co.d{color:var(--te)}
+.exp .per{font:13px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;color:var(--mu)}
+.exp .tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}
+.exp .tag{font-size:12.5px;color:#c4cfdb;border:1px solid var(--ln);border-radius:99px;padding:2px 10px;transition:border-color .2s}
+.exp .card:hover .tag{border-color:#24556a}
+.exp .mets{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px;padding:16px 24px 0}
+.exp .m b{display:block;font-size:30px;line-height:1.1;letter-spacing:-.03em;font-variant-numeric:tabular-nums;color:#fff}
+.exp .m b i{font-style:normal;color:var(--mu);font-weight:400;font-size:.55em;margin:0 6px}
+.exp .m>span{font-size:13px;color:var(--mu);display:block;margin-top:2px}
+.exp .tg{display:flex;align-items:center;gap:8px;padding:14px 24px 20px;font-size:13px;color:var(--cy)}
+.exp .tg svg{width:14px;height:14px;transition:transform .3s}
+.exp .card.open .tg svg{transform:rotate(180deg)}
+.exp .bd{display:grid;grid-template-rows:0fr;visibility:hidden;transition:grid-template-rows .4s ease,visibility 0s .4s}
+.exp .card.open .bd{grid-template-rows:1fr;visibility:visible;transition:grid-template-rows .4s ease,visibility 0s 0s}
+.exp .bd>div{overflow:hidden;min-height:0}
+.exp .bd ul{margin:0;padding:0 24px 22px 42px;color:#b4c0cf;font-size:15px;border-top:1px solid var(--ln);padding-top:16px}
+.exp .bd li{margin-bottom:8px;max-width:72ch}.exp .bd li::marker{color:var(--te)}
+@media (max-width:640px){.exp{padding:64px 16px}.exp .wrap{padding-left:40px}.exp .hd{padding:18px 18px 6px}.exp .mets{padding:14px 18px 0}.exp .tg{padding:12px 18px 16px}.exp .bd ul{padding-left:36px;padding-right:18px}}
+@media (prefers-reduced-motion:reduce){.exp *{animation:none!important;transition:none!important}.exp .card{opacity:1;transform:none}}
+</style></head><body>
+<section class="exp" id="experience" aria-labelledby="exp-h">
+<h2 id="exp-h">Experience</h2>
+<p class="lead">From intern to analytics engineer: building pipelines, reusable datasets and automated reporting. Select a role to read the details.</p>
+<div class="wrap"><div class="rail" aria-hidden="true"></div><div class="list"></div></div>
+</section>
+<script>
+/* ===== Content (edit here) ===== */
+const EXPERIENCE=[
+{role:"Analytics Engineer",co:"SAGO",loc:"Remote, US",period:"Jun 2026 – Present",
+ tags:["AWS lakehouse","Dremio Cloud","Data integration","Reporting automation","Hex","Superset","Team coordination"],
+ metrics:[{n:[4],s:"+",l:"business and research data sources integrated"},{n:[6,2],s:" h",l:"manual consolidation per cycle (approx.)"},{n:[4,1.5],s:" h",l:"statistical reporting turnaround per cycle (approx.)"}],
+ points:["Integrated 4+ business and research data sources through scheduled daily and weekly pipelines into an AWS-based lakehouse and Dremio Cloud, creating analytical datasets for recurring reporting.","Reduced manual consolidation from approximately 6 to 2 hours per cycle.","Automated recurring statistical reporting, reducing turnaround from approximately 4 to 1.5 hours per cycle.","Developed dashboards and analytical workflows in Hex and Superset to make internal business and operational data more accessible and support recurring reporting for internal stakeholders.","Delivered 3+ applications, proofs of concept, and automation solutions supporting research operations, project management, and analytics.","Coordinated a six-member team working across research workflows, data structures, visualization, and analytics architecture on 3+ recurring workstreams."]},
+{role:"Analytics Intern",co:"SAGO",loc:"Remote, US",period:"Jan 2026 – May 2026",
+ tags:["Data preparation","Source integration","Dashboards","Reporting automation"],metrics:[],
+ points:["Supported the extraction, integration, and preparation of business and research data, consolidating previously siloed sources into datasets for recurring reporting.","Assisted with dashboard development and automation of recurring research and reporting tasks, supporting analytical delivery to business teams."]},
+{role:"BI Analyst",co:"Diacto Technologies",loc:"Pune, India",period:"Jan 2023 – Aug 2024",d:1,
+ tags:["SQL optimization","ETL/ELT","Analytical datasets","Dashboards","Enterprise engagements"],
+ metrics:[{n:[9],s:"+",l:"ETL/ELT workflows built and maintained"},{n:[11],s:"+",l:"analytical datasets with standardized logic"},{n:[9],s:"+",l:"dashboards and KPI scorecards"},{n:[13],s:"+",l:"enterprise engagements"}],
+ points:["Built and maintained 9+ ETL/ELT workflows, optimizing SQL queries and transformation logic to reduce typical refresh times by approximately 25% and lower platform credit consumption.","Automated SQL reporting processes and standardized reporting logic across 11+ analytical datasets, implementing validation and reconciliation checks to identify discrepancies before dashboard delivery.","Delivered BI and analytics solutions across 13+ enterprise engagements, leading requirements workshops and translating stakeholder needs into data preparation workflows, dashboards, deployment, and production support.","Developed and optimized 9+ dashboards and KPI scorecards, consolidating 14+ recurring reports and saving approximately 10 hours of reporting preparation per week.","Mentored junior analysts in SQL, data workflows, data modeling, and BI development, supporting onboarding and consistent delivery practices."]},
+{role:"Intern",co:"Diacto Technologies",loc:"Pune, India",period:"Sep 2022 – Dec 2022",d:1,
+ tags:["SQL data preparation","ETL workflows","Data validation","Dashboards"],metrics:[],
+ points:["Supported SQL-based data preparation and ETL workflows, transforming source data into datasets for business reporting and analysis.","Assisted with dashboard development and performed data validation and reconciliation to check reporting accuracy before delivery."]}
+];
+
+/* ===== Component ===== */
+(()=>{
+const root=document.getElementById("experience");if(!root)return;
+const RM=matchMedia("(prefers-reduced-motion: reduce)").matches;
+const list=root.querySelector(".list"),rail=root.querySelector(".rail");
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+list.innerHTML=EXPERIENCE.map((e,i)=>`<article class="card${i===0?" open":""}" data-i="${i}">
+<button class="hd" id="exp-b${i}" aria-expanded="${i===0}" aria-controls="exp-p${i}">
+<span class="top"><span class="role">${esc(e.role)} <span class="co${e.d?" d":""}">· ${esc(e.co)}</span></span><span class="per">${esc(e.period)} · ${esc(e.loc)}</span></span>
+<span class="tags">${e.tags.map(t=>`<span class="tag">${esc(t)}</span>`).join("")}</span></button>
+${e.metrics.length?`<div class="mets">${e.metrics.map(m=>`<div class="m"><b>${m.n.map(v=>`<span data-n="${v}">${RM?v:0}</span>`).join("<i>to</i>")}${esc(m.s)}</b><span>${esc(m.l)}</span></div>`).join("")}</div>`:""}
+<div class="tg" aria-hidden="true"><span>${i===0?"Hide":"Show"} details</span><svg viewBox="0 0 16 16"><path d="M3 6l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+<div class="bd" id="exp-p${i}" role="region" aria-labelledby="exp-b${i}"><div><ul>${e.points.map(p=>`<li>${esc(p)}</li>`).join("")}</ul></div></div></article>`).join("");
+const cards=[...list.children];
+
+cards.forEach(c=>{const b=c.querySelector(".hd"),t=c.querySelector(".tg span");
+ b.onclick=()=>{const o=c.classList.toggle("open");b.setAttribute("aria-expanded",o);t.textContent=(o?"Hide":"Show")+" details"};
+ c.onmouseenter=()=>nodes[c.dataset.i]&&nodes[c.dataset.i].classList.add("hv");
+ c.onmouseleave=()=>nodes[c.dataset.i]&&nodes[c.dataset.i].classList.remove("hv")});
+
+/* SVG rail: track, scroll-drawn progress, data-flow particles, one node per role */
+const NS="http://www.w3.org/2000/svg",mk=(n,a)=>{const e=document.createElementNS(NS,n);for(const k in a)e.setAttribute(k,a[k]);return e};
+const svg=mk("svg",{width:24});const track=mk("path",{class:"trk",id:"exp-track"}),prog=mk("path",{class:"prg"});
+svg.append(track,prog);
+if(!RM)for(let k=0;k<3;k++){const c=mk("circle",{r:3,fill:"#2dd4bf"});c.innerHTML=`<animateMotion dur="9s" begin="${-k*3}s" repeatCount="indefinite"><mpath href="#exp-track"/></animateMotion>`;svg.append(c)}
+const nodes=cards.map(()=>{const n=mk("circle",{class:"nd",cx:12,r:6});svg.append(n);return n});
+rail.append(svg);
+let H=0;
+function layout(){H=list.offsetHeight;svg.setAttribute("height",H);svg.setAttribute("viewBox",`0 0 24 ${H}`);
+ [track,prog].forEach(p=>p.setAttribute("d",`M12 0V${H}`));prog.style.strokeDasharray=H;
+ cards.forEach((c,i)=>nodes[i].setAttribute("cy",c.offsetTop+30));update()}
+function update(){const r=list.getBoundingClientRect();
+ const p=RM?1:Math.max(0,Math.min(1,(innerHeight*.65-r.top)/H));
+ prog.style.strokeDashoffset=H*(1-p);
+ cards.forEach((c,i)=>nodes[i].classList.toggle("on",RM||c.offsetTop+30<=p*H))}
+let raf=0;const sched=()=>{cancelAnimationFrame(raf);raf=requestAnimationFrame(layout)};
+new ResizeObserver(sched).observe(list);addEventListener("scroll",()=>requestAnimationFrame(update),{passive:true});
+
+/* scroll-triggered reveal and counters */
+const count=el=>{const to=+el.dataset.n,dec=String(to).includes(".")?1:0,t0=performance.now();
+ const f=t=>{const k=Math.min((t-t0)/1100,1);el.textContent=(to*(1-Math.pow(1-k,3))).toFixed(dec);if(k<1)requestAnimationFrame(f)};requestAnimationFrame(f)};
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;e.target.classList.add("in");
+ if(!RM)e.target.querySelectorAll("[data-n]").forEach(count);io.unobserve(e.target)}),{threshold:.25});
+cards.forEach(c=>io.observe(c));
+layout();
+})();
+</script>
+</body></html>
