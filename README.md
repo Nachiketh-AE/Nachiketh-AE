@@ -7,6 +7,4 @@
 <p align="center">
   <img src="tech-stack.svg" alt="Technical stack grouped by purpose: SQL and transformations, data platforms, integration and workflow, analytics and visualization, modeling and quality, and delivery" width="100%">
 </p>
-<div align="center">
-  <img src="experience.svg" alt="Impact highlights grouped by employer: SAGO and Diacto Technologies, with ten resume-reported outcomes" width="100%">
-</div>
+
