@@ -7,4 +7,6 @@
 <p align="center">
   <img src="tech-stack.svg" alt="Technical stack grouped by purpose: SQL and transformations, data platforms, integration and workflow, analytics and visualization, modeling and quality, and delivery" width="100%">
 </p>
-
+<p align="center">
+<img src="assets/experience.svg" alt="My Experience: Analytics Engineer and Analytics Intern at SAGO; BI Analyst and Intern at Diacto Technologies" width="100%">
+</p>
